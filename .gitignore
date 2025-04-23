@@ -1,0 +1,27 @@
+# Ignorar arquivos temporários de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar backups de editores
+*~
+*.swp
+*.bak
+
+# Ignorar arquivos de log ou temporários
+*.log
+*.tmp
+
+# Ignorar arquivos de banco de dados locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignorar pastas de IDEs
+.idea/
+.vscode/
+
+# Ignorar arquivos ZIP ou de exportação
+*.zip
+
+# Se usar notebooks (raro em SQL puro, mas só pra garantir)
+.ipynb_checkpoints/
